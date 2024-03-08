@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>El Rey De Los Dados</title>
+    <link rel="shortcut icon" href="img/logo.png" />
+    
+    <!-- FUENTE GOOGLE FONTS : Fredoka y Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- ICONS: Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <!-- ICONS: Line Awesome -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Animaciones AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+
+    <!-- Mis Estilos -->
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+
+    <div class="hm-wrapper">
+
+        <!-- =================================
+           HEADER MENU
+        ================================== -->
+        <div class="hm-header">
+
+            <div class="container">
+                <div class="header-menu">
+
+                    <div class="hm-logo">
+                        <a href="">
+                            <img class="logo" src="img/logo.png" alt="">
+                            <h1>El Rey de los Dados</h1>
+                        </a>
+                    </div>
+
+                    <nav class="hm-menu">
+                        <ul>
+                            <li><a href="">INICIO</a></li>
+                            <li><a href="foro.html">FORO</a></li>
+                            <li>
+                                <a href="juegos.html">JUEGOS</a>
+                                <ul>
+                                    <li><a href="juegos.html?categoria=Habilidad">Habilidad</a></li>
+                                    <li><a href="juegos.html?categoria=Cartas">Cartas</a></li>
+                                    <li><a href="juegos.html?categoria=Estrategia">Estrategia</a></li>
+                                    <li><a href="juegos.html?categoria=Juegos%20De%20Rol">Juegos De Rol</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="cuenta.html">CUENTA</a></li>
+                        </ul>
+
+
+                        <div class="hm-icon-cart">
+                            <a id="cesta">
+                                <i class="las la-shopping-cart"></i>
+                                <span id="cantidadCesta">0</span>
+                            </a>
+                            <div class="cart-container" id="cart-container"></div>
+                        </div>
+
+                        <div class="icon-menu">
+                            <button type="button"><i class="fas fa-bars"></i></button>
+                        </div>
+
+                    </nav>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- =================================
+           HEADER MENU Movil
+        ================================== -->
+        <div class="header-menu-movil">
+            <button class="cerrar-menu"><i class="fas fa-times"></i></button>
+            <ul>
+                <li><a href="">INICIO</a></li>
+                <li><a href="foro.html">FORO</a></li>
+                <li><a href="juegos.html">JUEGOS</a>
+                    <ul>
+                        <li><a href="juegos.html?categoria=Habilidad">Habilidad</a></li>
+                        <li><a href="juegos.html?categoria=Cartas">Cartas</a></li>
+                        <li><a href="juegos.html?categoria=Estrategia">Estrategia</a></li>
+                        <li><a href="juegos.html?categoria=Juegos%De%Rol">Juegos De Rol</a></li>
+                    </ul>
+                </li>
+                <li><a href="cuenta.html">CUENTA</a></li>
+            </ul>
+        </div>
+
+         <!-- =================================
+           HOME PRODUCTOS DESTACADOS
+        ================================== -->
+        <div class="hm-page-block bg-fondo">
+
+            <div class="container">
+
+                <div class="header-title" data-aos="fade-up">
+                    <h1>Productos Destacados</h1>
+                </div>
+
+                <!-- CONTENIDO DE LOS TABS -->
+                <!-- Destacados -->
+                    <div class="grid-product" id="gridDestacados">
+                    </div>
+            </div>
+
+
+
+         <!-- =================================
+           FOOTER
+        ================================== -->
+        <footer>
+            
+            <div class="container">
+
+                <div class="foo-row">
+                    <div class="foo-col">
+                        <h2>Suscríbete <br>a nuestro newsletter</h2>
+                        <form action="" method="GET">
+
+                            <div class="f-input">
+                                <input type="text" placeholder="Ingrese su correo">
+                                <button type="submit" class="hm-btn-round btn-primary"><i class="far fa-paper-plane"></i></button>
+                            </div>
+                        </form>
+
+                    </div>
+
+                    <div class="foo-col">
+                        <ul>
+                           <li><a href="http://">Productos</a></li>
+                           <li><a href="http://">Campañas</a></li>
+                           <li><a href="http://">Nosotros</a></li>
+                           <li><a href="http://">Contacto</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+        <div class="foo-copy">
+            <div class="container">
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- Animaciones : AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Mi Script -->
+    <script src="app.js"></script>
+
+    <script>
+    
+        AOS.init({
+            duration: 1200,
+        })
+
+
+    </script>
+
+</body>
+</html>

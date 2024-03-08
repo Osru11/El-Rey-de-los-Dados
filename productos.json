@@ -1,0 +1,283 @@
+[
+  {
+    "id": 1,
+    "imagen": "https://m.media-amazon.com/images/I/71CW2OINIyL.__AC_SX300_SY300_QL70_ML2_.jpg",
+    "nombre": "Taco Gato Cabra Queso Pizza",
+    "precio": "12.00€",
+    "categoría": "Cartas"
+  },
+  {
+    "id": 2,
+    "imagen": "https://m.media-amazon.com/images/I/71GEzcTiDML._AC_SY450_.jpg",
+    "nombre": "Los Colonos de Catan",
+    "precio": "43.99€",
+    "categoría": "Estrategia"
+  },
+  {
+    "id": 3,
+    "imagen": "https://m.media-amazon.com/images/I/812SzDfc2SL._AC_UL320_.jpg",
+    "nombre": "Dixit",
+    "precio": "29.99€",
+    "categoría": "Cartas"
+  },
+  {
+    "id": 4,
+    "imagen": "https://m.media-amazon.com/images/I/81mj6maLP3L._AC_UL320_.jpg",
+    "nombre": "Carcassonne",
+    "precio": "25.00€",
+    "categoría": "Estrategia"
+  },
+  {
+    "id": 5,
+    "imagen": "https://m.media-amazon.com/images/I/71IC1KLr+uL._AC_UL320_.jpg",
+    "nombre": "UNO",
+    "precio": "7.99€",
+    "categoría": "Cartas"
+  },
+  {
+    "id": 6,
+    "imagen": "https://m.media-amazon.com/images/I/91YNJM4oyhL._AC_UL320_.jpg",
+    "nombre": "Ticket to Ride",
+    "precio": "36.95€",
+    "categoría": "Estrategia"
+  },
+  {
+    "id": 7,
+    "imagen": "https://m.media-amazon.com/images/I/61b2vsppJQL._AC_UL320_.jpg",
+    "nombre": "Sushi Go!",
+    "precio": "14.99€",
+    "categoría": "Cartas"
+  },
+  {
+    "id": 8,
+    "imagen": "https://m.media-amazon.com/images/I/71heP+WYnBL._AC_UL320_.jpg",
+    "nombre": "Risk",
+    "precio": "36.50€",
+    "categoría": "Estrategia"
+  },
+  {
+    "id": 9,
+    "imagen": "https://m.media-amazon.com/images/I/71UWiMQV+yL._AC_UL320_.jpg",
+    "nombre": "Exploding Kittens",
+    "precio": "19.99€",
+    "categoría": "Cartas"
+  },
+  {
+    "id": 10,
+    "imagen": "https://m.media-amazon.com/images/I/71DymVMnejL._AC_UL320_.jpg",
+    "nombre": "Pandemic",
+    "precio": "39.99€",
+    "categoría": "Estrategia"
+  },
+  {
+    "id": 11,
+    "imagen": "https://m.media-amazon.com/images/I/71y7y+NHfoL._AC_UL320_.jpg",
+    "nombre": "Dominion",
+    "precio": "34.95€",
+    "categoría": "Cartas"
+  },
+  {
+    "id": 12,
+    "imagen": "https://m.media-amazon.com/images/I/71RXuij2uFL._AC_UL320_.jpg",
+    "nombre": "7 Wonders",
+    "precio": "43.95€",
+    "categoría": "Estrategia"
+  },
+  {
+    "id": 13,
+    "imagen": "https://m.media-amazon.com/images/I/61kyqusrPUL._AC_UL320_.jpg",
+    "nombre": "Bang!",
+    "precio": "19.95€",
+    "categoría": "Cartas"
+  },
+  {
+    "id": 14,
+    "imagen": "https://m.media-amazon.com/images/I/61S3kRM1PKL._AC_UL320_.jpg",
+    "nombre": "Pegasus Spiele Mage Knight Ultimate Edition",
+    "precio": "143.99€",
+    "categoría": "Estrategia"
+  },
+  {
+    "id": 15,
+    "imagen": "https://m.media-amazon.com/images/I/71F9GXZKnHL._AC_SY450_.jpg",
+    "nombre": "Asmodee - Cocktail Games Hanabi",
+    "precio": "19.99€",
+    "categoría": "Cartas"
+  },
+  {
+    "id": 16,
+    "imagen": "https://m.media-amazon.com/images/I/611IWIcGjrL._AC_UL320_.jpg",
+    "nombre": "Twilight Struggle",
+    "precio": "52.99€",
+    "categoría": "Estrategia"
+  },
+  {
+    "id": 17,
+    "imagen": "https://m.media-amazon.com/images/I/511+nQ-MVyL._AC_UL320_.jpg",
+    "nombre": "Coup",
+    "precio": "17.95€",
+    "categoría": "Cartas"
+  },
+  {
+    "id": 18,
+    "imagen": "https://m.media-amazon.com/images/I/81-Ru-IIXyS._AC_UL320_.jpg",
+    "nombre": "Agricola",
+    "precio": "59.99€",
+    "categoría": "Estrategia"
+  },
+  {
+    "id": 19,
+    "imagen": "https://m.media-amazon.com/images/I/71YR+VPr3+L._AC_UL320_.jpg",
+    "nombre": "Love Letter",
+    "precio": "23.95€",
+    "categoría": "Cartas"
+  },
+  {
+    "id": 20,
+    "imagen": "https://m.media-amazon.com/images/I/71w3EvEBLDS._AC_UL320_.jpg",
+    "nombre": "Terraforming Mars",
+    "precio": "55.00€",
+    "categoría": "Estrategia"
+  },
+  {
+    "id": 21,
+    "imagen": "https://m.media-amazon.com/images/I/81-cKwx9+lL._AC_UL320_.jpg",
+    "nombre": "Jenga",
+    "precio": "19.99€",
+    "categoría": "Habilidad"
+  },
+  {
+    "id": 22,
+    "imagen": "https://m.media-amazon.com/images/I/61XB7YHblPL._AC_UL320_.jpg",
+    "nombre": "Conecta4",
+    "precio": "15.99€",
+    "categoría": "Habilidad"
+  },
+  {
+    "id": 23,
+    "imagen": "https://m.media-amazon.com/images/I/71BFoaAUw-L._AC_UL320_.jpg",
+    "nombre": "Crocodilo Dentista",
+    "precio": "17.99€",
+    "categoría": "Habilidad"
+  },
+  {
+    "id": 24,
+    "imagen": "https://m.media-amazon.com/images/I/71WAVI0TASL._AC_UL320_.jpg",
+    "nombre": "Operación",
+    "precio": "29.99€",
+    "categoría": "Habilidad"
+  },
+  {
+    "id": 25,
+    "imagen": "https://m.media-amazon.com/images/I/81Yc1tBeGlL._AC_UL320_.jpg",
+    "nombre": "Perfektion",
+    "precio": "49.99€",
+    "categoría": "Habilidad"
+  },
+  {
+    "id": 26,
+    "imagen": "https://m.media-amazon.com/images/I/91Vw+Y+Ej0L._AC_UL320_.jpg",
+    "nombre": "Hundir la Flota",
+    "precio": "21.99€",
+    "categoría": "Habilidad"
+  },
+  {
+    "id": 27,
+    "imagen": "https://m.media-amazon.com/images/I/81P7iHZ+1lL._AC_UL320_.jpg",
+    "nombre": "Simon",
+    "precio": "24.99€",
+    "categoría": "Habilidad"
+  },
+  {
+    "id": 28,
+    "imagen": "https://m.media-amazon.com/images/I/61VecmAdSoL._AC_UL320_.jpg",
+    "nombre": "Taboo",
+    "precio": "33.33€",
+    "categoría": "Habilidad"
+  },
+  {
+    "id": 29,
+    "imagen": "https://m.media-amazon.com/images/I/61TeMVKgV4L._AC_UL320_.jpg",
+    "nombre": "Scattergories",
+    "precio": "24.99€",
+    "categoría": "Habilidad"
+  },
+  {
+    "id": 30,
+    "imagen": "https://m.media-amazon.com/images/I/813gXN58aCL._AC_UL320_.jpg",
+    "nombre": "Pictionary",
+    "precio": "27.99€",
+    "categoría": "Habilidad"
+  },
+  {
+    "id": 31,
+    "imagen": "https://m.media-amazon.com/images/I/81s9bxHahVL._AC_UL320_.jpg",
+    "nombre": "Dungeons & Dragons",
+    "precio": "49.99€",
+    "categoría": "Juegos de Rol"
+  },
+  {
+    "id": 32,
+    "imagen": "https://m.media-amazon.com/images/I/818sCa3aftL._AC_UL320_.jpg",
+    "nombre": "Pathfinder",
+    "precio": "54.99€",
+    "categoría": "Juegos de Rol"
+  },
+  {
+    "id": 33,
+    "imagen": "https://m.media-amazon.com/images/I/71UwuIkcjCL._AC_UL320_.jpg",
+    "nombre": "La llamada Cthulhu",
+    "precio": "39.99€",
+    "categoría": "Juegos de Rol"
+  },
+  {
+    "id": 34,
+    "imagen": "https://m.media-amazon.com/images/I/81rMoTVHgoL._AC_UL320_.jpg",
+    "nombre": "Warhammer 40,000",
+    "precio": "64.99€",
+    "categoría": "Juegos de Rol"
+  },
+  {
+    "id": 35,
+    "imagen": "https://m.media-amazon.com/images/I/81wxn3FTn1L._AC_UL320_.jpg",
+    "nombre": "Shadowrun 3ª edición rústica",
+    "precio": "49.99€",
+    "categoría": "Juegos de Rol"
+  },
+  {
+    "id": 36,
+    "imagen": "https://m.media-amazon.com/images/I/51N4gOywdRL._AC_UL320_.jpg",
+    "nombre": "Starfinder",
+    "precio": "59.99€",
+    "categoría": "Juegos de Rol"
+  },
+  {
+    "id": 37,
+    "imagen": "https://m.media-amazon.com/images/I/71xFc8S7JoL._SY342_.jpg",
+    "nombre": "GURPS (edición inglesa)",
+    "precio": "27.99€",
+    "categoría": "Juegos de Rol"
+  },
+  {
+    "id": 38,
+    "imagen": "https://m.media-amazon.com/images/I/81wWsjDnLdL._AC_UL320_.jpg",
+    "nombre": "Vampire: The Masquerade",
+    "precio": "79.99€",
+    "categoría": "Juegos de Rol"
+  },
+  {
+    "id": 39,
+    "imagen": "https://m.media-amazon.com/images/I/611BX3iMPfL._AC_SY355_.jpg",
+    "nombre": "Holocubierta - Cyberpunk Red Libro básico",
+    "precio": "49.50€",
+    "categoría": "Juegos de Rol"
+  },
+  {
+    "id": 40,
+    "imagen": "https://m.media-amazon.com/images/I/714Ay4PAxBL._AC_UL320_.jpg",
+    "nombre": "Devir - Warhammer: Juego de Rol de Fantasía",
+    "precio": "39.99€",
+    "categoría": "Juegos de Rol"
+  }
+]
+

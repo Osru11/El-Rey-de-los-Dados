@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>El Rey De Los Dados</title>
+    <link rel="shortcut icon" href="img/logo.png" />
+
+    <!-- FUENTE GOOGLE FONTS : Fredoka y Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- ICONS: Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <!-- ICONS: Line Awesome -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Animaciones AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+
+    <!-- Mis Estilos -->
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+
+    <div class="hm-wrapper">
+
+        <!-- =================================
+           HEADER MENU
+        ================================== -->
+        <div class="hm-header">
+
+            <div class="container">
+                <div class="header-menu">
+
+                    <div class="hm-logo">
+                        <a href="">
+                            <img class="logo" src="img/logo.png" alt="">
+                            <h1>El Rey de los Dados</h1>
+                        </a>
+                    </div>
+
+                    <nav class="hm-menu">
+                        <ul>
+                            <li><a href="index.html">INICIO</a></li>
+                            <li><a href="foro.html">FORO</a></li>
+                            <li>
+                                <a href="juegos.html">JUEGOS</a>
+                                <ul>
+                                    <li><a onclick="desplegar('Cartas')" >Cartas</a></li>
+                                    <li><a onclick="desplegar('Habilidad')">Habilidad</a></li>
+                                    <li><a onclick="desplegar('Estrategia')" >Estrategia</a></li>
+                                    <li><a onclick="desplegar('Juegos De Rol')" >Juegos De Rol</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="cuenta.html">CUENTA</a></li>
+                        </ul>
+
+
+                        <div class="hm-icon-cart">
+                            <a id="cesta">
+                                <i class="las la-shopping-cart"></i>
+                                <span id="cantidadCesta">0</span>
+                            </a>
+                            <div class="cart-container" id="cart-container"></div>
+                        </div>
+
+                        <div class="icon-menu">
+                            <button type="button"><i class="fas fa-bars"></i></button>
+                        </div>
+
+                    </nav>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- =================================
+           HEADER MENU Movil
+        ================================== -->
+        <div class="header-menu-movil">
+            <button class="cerrar-menu"><i class="fas fa-times"></i></button>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="foro.html">FORO</a></li>
+                <li><a href="juegos.html">JUEGOS</a>
+                    <ul>
+                        <li><a onclick="desplegar('Habilidad')" >Habilidad</a></li>
+                        <li><a onclick="desplegar('Cartas')">Cartas</a></li>
+                        <li><a onclick="desplegar('Estrategia')">Estrategia</a></li>
+                        <li><a onclick="desplegar('Juegos De Rol')">Juegos De Rol</a></li>
+                    </ul>
+                </li>
+                <li><a href="cuenta.html">CUENTA</a></li>
+            </ul>
+        </div>
+
+        <!-- =================================
+           HOME CATEGROIAS
+        ================================== -->
+        <div class="hm-page-block" id="menu">
+            <div class="container">
+                <div class="header-title">
+                    <h1  data-aos="fade-up" data-aos-duration="3000">Categorías</h1>
+                </div>
+
+                <div class="hm-grid-category">
+
+                    <div class="grid-item" data-aos="fade-up" data-aos-duration="1000">
+                        <a onclick="desplegar('Habilidad')">
+                            <img src="https://m.media-amazon.com/images/I/61sYLIsbG5L._AC_SX679_.jpg" alt="">
+                            <div class="c-info">
+                                <h3>Habilidad</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item" data-aos="fade-up" data-aos-duration="1500">
+                        <a onclick="desplegar('Cartas')">
+                            <img src="img/c-2.jpg" alt="">
+                            <div class="c-info">
+                                <h3>Cartas</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item" data-aos="fade-up" data-aos-duration="2000">
+                        <a onclick="desplegar('Estrategia')">
+                            <img src="https://m.media-amazon.com/images/I/81IARqKwUrL._AC_SX679_.jpg" alt="">
+                            <div class="c-info">
+                                <h3>Estrategia</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item" data-aos="fade-up" data-aos-duration="2000">
+                        <a onclick="desplegar('Juegos De Rol')">
+                            <img src="img/c-4.jpg" alt="">
+                            <div class="c-info">
+                                <h3>Juegos De Rol</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- =================================
+           HOME PRODUCTOS DESTACADOS
+        ================================== -->
+        <div class="hm-page-block bg-fondo">
+
+            <div class="container">
+
+                <!-- TABS -->
+                <ul class="hm-tabs">
+                    <li class="hm-tab-link">
+                        Habilidad
+                    </li>
+
+                    <li class="hm-tab-link ">
+                        Cartas
+                    </li>
+
+                    <li class="hm-tab-link ">
+                        Estrategia
+                    </li>
+
+                    <li class="hm-tab-link">
+                        Juegos De Rol
+                    </li>
+
+                </ul>
+
+                <!-- CONTENIDO DE LOS TABS -->
+                <!-- Habilidad -->
+                <div class="tabs-content" >
+                    <div class="grid-product" id="gridHabilidad">
+                    </div>
+                </div>
+
+                <!-- Cartas -->
+                <div class="tabs-content" data-aos="fade-up">
+                    <div class="grid-product" id="gridCartas">
+                    </div>
+                </div>
+
+                <!-- Estrategia -->
+                <div class="tabs-content" data-aos="fade-up">
+                    <div class="grid-product" id="gridEstrategia">
+                    </div>
+                </div>
+
+                <!-- De Rol -->
+                <div class="tabs-content" data-aos="fade-up">
+                    <div class="grid-product" id="gridRol">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+         <!-- =================================
+           FOOTER
+        ================================== -->
+        <footer>
+            
+            <div class="container">
+
+                <div class="foo-row">
+                    <div class="foo-col">
+                        <h2>Suscríbete <br>a nuestro newsletter</h2>
+                        <form action="" method="GET">
+
+                            <div class="f-input">
+                                <input type="text" placeholder="Ingrese su correo">
+                                <button type="submit" class="hm-btn-round btn-primary"><i class="far fa-paper-plane"></i></button>
+                            </div>
+                        </form>
+
+                    </div>
+
+                    <div class="foo-col">
+                        <ul>
+                           <li><a href="http://">Productos</a></li>
+                           <li><a href="http://">Campañas</a></li>
+                           <li><a href="http://">Nosotros</a></li>
+                           <li><a href="http://">Contacto</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+        <div class="foo-copy">
+            <div class="container">
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- Animaciones : AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Mi Script -->
+    <script src="app.js"></script>
+
+    <script>
+    
+        AOS.init({
+            duration: 1200,
+        })
+
+
+    </script>
+
+</body>
+</html>
